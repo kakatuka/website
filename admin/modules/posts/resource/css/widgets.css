@@ -1,0 +1,172 @@
+.widget {
+    background: #fff;
+    clear: both;
+    margin-bottom: 20px;
+    margin-top: 0;
+    box-shadow: 0 0 5px #ddd;
+}
+.widget-menu .widget-title {
+    cursor: pointer;
+    border-bottom: none;
+}
+.widget-title>.tools {
+    float: right;
+    display: inline-block;
+    padding: 8px 12px 0;
+}
+.widget-title>.tools>a {
+    display: inline-block;
+    height: 16px;
+    margin-left: 5px;
+    opacity: 1;
+}
+.widget-menu .widget-title:hover {
+    background: #eee;
+}
+.widget-title>.tools>a.expand {
+    width: 14px;
+    visibility: visible;
+}
+.widget-body {
+    padding: 15px;
+    border-radius: 0 0 3px 3px;
+    transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+    min-height: 50px;
+}
+.widget .closed a.expand{
+    background-image: url(../images/portlet-expand-icon.png);
+}
+.widget .opened a.expand{
+    background-image: url(../images/portlet-collapse-icon.png);
+}
+
+
+.box-links-for-menu .list-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    max-height: 200px;
+    overflow: auto;
+}
+.box-links-for-menu .list-item li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 5px;
+}
+.box-links-for-menu .list-item li a {
+    display: inline-block;
+    padding-left: 20px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.box-links-for-menu .list-item li.active>a:before {
+    content: '\2713';
+}
+.box-links-for-menu .list-item li a:before {
+    border: 1px solid #333;
+    content: "";
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    height: 14px;
+    left: 0;
+    line-height: 11px;
+    position: absolute;
+    width: 14px;
+}
+
+
+
+
+
+
+
+.dd-list {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.dd-item {
+    position: relative;
+        margin-bottom: 5px;
+}
+.dd-handle {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: 0;
+    cursor: move;
+    width: 350px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 1px solid #aaa;
+    background: transparent;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 30px;
+    border-radius: 3px;
+}
+.dd-handle:hover {
+    background-color: transparent;
+}
+.dd-content {
+    width: 350px;
+    background-color: #fff;
+    border: 0 none;
+        line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dd-content>span.text.pull-left {
+    display: inline-block;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dd-content>span.text.pull-right {
+    margin-right: 25px;
+    display: inline-block;
+    max-width: 85px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dd-content .show-item-details {
+    background-color: #ccc;
+    left: 319px;
+    line-height: 28px;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    width: 30px;
+    color: #000;
+    border-left: 1px solid #aaa;
+}
+.dd-item>.item-details {
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    margin-bottom: 5px;
+    margin-top: -5px;
+    padding: 10px 15px;
+    max-width: 350px;
+}
+
+.nestable-menu ol.dd-list li.closed .item-details{
+    display: none;
+}
+
+.dd-item>.item-details>label {
+    float: left;
+    width: 100%;
+    display: block;
+}

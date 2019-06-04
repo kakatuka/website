@@ -1,0 +1,435 @@
+﻿div#mn_luxury ul.sm {
+    float: right;
+}
+div#mn_luxury {
+    background: transparent;
+}
+.lx-top {
+    position: absolute;width:100%;
+}
+div#lx-topbanner {
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.tx_luxury, .tx_luxury2 {
+    width: 50%;
+    margin: 0 auto;
+}
+.tx_luxury {
+    padding-top: 7%;
+}
+    .tx_luxury img, .tx_luxury2 img {
+        width: 100%;
+    }
+div#icon_f ul {
+    margin-bottom: 0px;
+    padding: 0px;
+}
+ 
+div#footer ul li {
+    list-style: none;
+    display: table;
+    text-align: center;
+}
+div#icon_f ul li {
+    width: 50px;
+    display: inline-block;
+}
+.body-content {
+    padding-top: 0px !important;
+    
+}
+.bottomdiv {
+    
+     margin-top: 0px !important;
+}
+.bg_fix {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#lv_des {
+    background: #fff;
+    margin-top: -20px;
+    padding-bottom: 3%;
+    padding-top: 2%;
+    font-style: italic;
+    color: #000;
+}
+#blog_tour {
+    border: 1px solid #f5f5f5;
+    width: 100%;
+    float: left;
+    background: #fff;
+}
+
+.tieude_tour {
+    margin-top: -45px;
+    background: #fff;
+    float: left;
+    z-index: 99;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+    .tieude_tour h3 {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+#blog_price_tour {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mota_tour {
+    font-style: italic;
+    margin-top: 10px;
+    color: #000;
+    background: #f5f5f5;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.fa_price {
+    font-size: 20px;
+    color: #0184cc;
+}
+
+.i_price {
+    font-size: 20px;
+    color: red;
+}
+
+#btn_booking {
+    color: #fff;
+    float: right;
+    background: #36B5CD;
+}
+.col-md-12.bl_tttour {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+html, body {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover, a:focus {
+        color: #23527c;
+        text-decoration: none !important;
+        /* text-decoration: underline; */
+    }
+
+#content {
+    padding-bottom: 10px;padding-left:0px;padding-right:0px;
+}
+/* jssor slider loading skin spin css */
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.tit_bk {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    float: left;
+    width: 100%;
+}
+
+@keyframes jssorl-009-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.jssorb064 {
+    position: absolute;
+}
+
+    .jssorb064 .i {
+        position: absolute;
+        cursor: pointer;
+    }
+
+        .jssorb064 .i .b {
+            fill: #000;
+            fill-opacity: .5;
+            stroke: #fff;
+            stroke-width: 400;
+            stroke-miterlimit: 10;
+            stroke-opacity: 0.5;
+        }
+
+        .jssorb064 .i:hover .b {
+            fill-opacity: .8;
+        }
+
+    .jssorb064 .iav .b {
+        fill: #ffe200;
+        fill-opacity: 1;
+        stroke: #ffaa00;
+        stroke-opacity: .7;
+        stroke-width: 2000;
+    }
+
+    .jssorb064 .iav:hover .b {
+        fill-opacity: .6;
+    }
+
+    .jssorb064 .i.idn {
+        opacity: .3;
+    }
+
+.jssora051 {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+
+    .jssora051 .a {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 360;
+        stroke-miterlimit: 10;
+    }
+
+    .jssora051:hover {
+        opacity: .8;
+    }
+
+    .jssora051.jssora051dn {
+        opacity: .5;
+    }
+
+    .jssora051.jssora051ds {
+        opacity: .3;
+        pointer-events: none;
+    }
+
+ul.nav.navbar-nav.btr-menunav.nav-pills #menu1 li a {
+    color: #000;
+}
+
+#top_banner {
+    position: relative;
+}
+
+.top {
+    position: absolute;
+    z-index: 9;
+    width: 98%;
+}
+/*menu */
+#menu {
+    float: right;
+    margin-top: 2%;
+}
+
+.dropdown-menu {
+    margin: 0;
+}
+
+#menu .nav-pills {
+    width: 100%;
+}
+
+    #menu .nav-pills li a {
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        font-family: sans-serif;
+    }
+
+ul#menu1 {
+    width: 200px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+    ul#menu1 li a {
+        font-size: 14px !important;
+    }
+
+        ul#menu1 li a:hover {
+            background: none;
+        }
+
+.dropdown-menu > li > span {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+    color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+ul#menu2 {
+    left: 200px;
+    background: #0184cc;
+    top: -5px;
+    width: 270px;
+}
+
+ul#menu3 {
+    left: 270px;
+    background: #0184cc;
+    top: 0px;
+    width: 400px;
+}
+
+    ul#menu3 li {
+        width: 50%;
+        float: left;
+    }
+
+ul#menu1 li {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+/*ul#menu1 li:not(:last-child){
+            border-top:1px solid #fff;
+            }*/
+ul#menu1 li {
+    border-top: 1px solid #fff;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background: none;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background: none;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+li#mn_c {
+    border-right: 2px solid #fff;
+}
+
+    li#mn_c:last-child {
+        border-right: none;
+    }
+
+ul#menu1.dropdown-menu li.dropdown a {
+    color: #000;
+}
+
+li#mn_c a:hover {
+    color: red;
+}
+/* end menu */
+.promotionWrapper {
+    /*  margin-top: 40px;*/
+}
+
+.promotionWrapper {
+    /*background-image: url(../img/home/promotion/promotion-1.jpg);*/
+    background-attachment: fixed;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    height: 900px;
+}
+
+#jssor_2 {
+    margin: 0px auto !important;
+}
+
+.slider_product:hover {
+    background: #fff;
+    opacity: 0.1;
+}
+
+div#footer {
+    background: aliceblue;
+    padding-top: 20px;
+    background-image: url(images/bg_footer_gt.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.destination {
+    padding: 5%;
+    text-align: center;
+}
+
+    .destination h1 {
+        text-shadow: rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+        color: #fff;
+    }
+
+.thongbao_bk {
+    text-align: center;
+    margin-bottom: 2%;
+    color: red;
+    font-size: 16px;
+}
+.bg_sub_tit_lx {
+    position: absolute;
+    left: 22px;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.88;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(100, 99, 97, 0.8);
+    background-clip: padding-box;
+    z-index: 1;
+    bottom: 0px;
+}
+@media (max-width: 767px) {
+    .promotionWrapper{height:400px;}
+    button#gui {
+        float: right;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .promotionWrapper {
+        height: 200px;
+    }
+    button#gui{
+        float:right;margin-right:20px;
+    }
+    }

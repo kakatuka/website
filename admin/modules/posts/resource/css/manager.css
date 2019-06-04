@@ -1,0 +1,110 @@
+#list-feature-home {
+	list-style: none;
+}
+
+#list-feature-home li {
+	display: block;
+	padding: 20px 10px; margin-bottom: 3px;
+	background-color: #efefef;
+}
+
+#list-feature-home li img.handle {
+	margin-right: 20px;
+	cursor: move;
+}
+.flip_title strong,
+#list-feature-home strong {
+	font-size: 16px;
+}
+#list-feature-home .title{
+	width: 80%;
+	display: initial;
+}
+.del_manager_home{
+	float: right;
+    margin-right: 10px;
+}
+.list-all-product-manager{
+	border: 1px solid #ddd;
+	padding:5px;
+
+}
+.list-all-product-manager .row{
+	height: 750px;
+	overflow-y: scroll;
+	margin-right:0px;
+}
+.flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #ddd;
+}
+.flip_title {
+	border-top: solid 1px #ddd;
+	border-left: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+    padding: 20px 10px;
+    background-color: #efefef;
+}
+.col-manager-center{
+	float: left;
+    height: 100px;
+    background: url(../images/switch.png) no-repeat center center;
+}
+
+.list-all-product-manager .imgs,
+.ui-sortable-home .imgs{
+	border: 1px solid #ddd;
+	margin-bottom: 5px;
+}
+
+.list-all-product-manager .imgs .img-thumbnail,
+.ui-sortable-home .imgs .img-thumbnail{
+	border-top:none; 
+	border-left:none; 
+	border-right:none; 
+	border-bottom: 1px solid #ddd;
+	border-radius: 0px;
+	float: left;
+}
+
+.list-all-product-manager .active{
+	border: 1px solid rgb(60, 141, 188);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+
+
+
+.list_item_product .row{
+	min-height: 211px;
+    overflow-y: scroll;
+    margin-right: 0; 
+    margin-left: 0; 
+    max-height: 500px
+}
+.list_item_product{
+	margin-top: 30px;
+}
+
+#cate_product_left{
+	width: 50%;
+}
+.list_item_product .imgs h5,
+.list-all-product-manager .imgs h5{
+	height: 46px;
+    width: 250px;
+    overflow-y: hidden;
+    float: left;
+}
+.list_item_product .imgs h5{
+	width: 195px;
+}
+
+.margin_top_none{
+	margin-top:0px!important;
+}
+.height_none{
+	height:0px!important;
+}

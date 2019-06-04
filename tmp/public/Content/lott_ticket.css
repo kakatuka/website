@@ -1,0 +1,171 @@
+﻿  .ticket-cont{width: 100%; display: inline-block; margin-top: 15px;}
+  
+    .collottery_panel{width: 100%; border: solid 1px #0094ff; padding-left: 0px; padding-right: 0px; position:relative;
+                      display: inline-block;
+    }
+    .up-pro{width: 100%; height: 100%; background: #fcf6d1 url(images/tickets/icon_loading.gif) no-repeat center; position: absolute;
+            z-index: 100;  opacity: 0.7;
+            filter: alpha(opacity=0.7); /* For IE8 and earlier */ 
+            text-align: center;   
+    }
+    .up-ok{
+        width: 100%; height: 100%; background: #fcf6d1 url(images/tickets/checkmark.png) no-repeat center; position: absolute;
+            z-index: 100;  opacity: 0.7;
+            filter: alpha(opacity=0.7); /* For IE8 and earlier */ 
+            text-align: center;   
+    }
+    .up-ok span{
+         font-size: 21pt; color: #666; font-weight:bold;
+        text-align: center; margin-top: 20%; display: inline-block;
+    }
+    .up-pro span{
+        font-size: 21pt; color: #666; font-weight:bold;
+        text-align: center; margin-top: 20%; display: inline-block;
+    }
+    .tikedhead{
+        padding-top: 8px; padding-bottom: 8px;
+        padding-left: 15px;
+        display: inline-block; width: 100%;
+    }
+     .tikedhead img.img-responsive {
+        float: left;
+    }
+    .mxn {
+        display: inline-block;
+        color: #0095da;
+        border: solid 2px #0095da;
+        border-radius: 22px;
+        border-top-left-radius: 22px;
+        border-top-right-radius: 22px;
+        border-bottom-right-radius: 22px;
+        border-bottom-left-radius: 22px;
+        padding: 8px 25px 8px 25px;
+        font-size: 15pt;
+        float: left;
+        margin-left: 100px;
+        margin-top: 35px;
+        width: 50%;
+    }
+    .imghead span {
+        color: #0094ff;
+        font-size: 13pt; display: inline-block; width: 100%; text-align: center;
+        font-weight: bold; padding-top: 10px; padding-bottom: 15px;
+    }
+    .frm_tick{
+        padding-left: 0px; padding-right: 0px;
+    }
+    .frm-group{
+        width: 100%; display: inline-block;       
+    }
+        .frm-group .col-xs-12 {
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    .frm-group .col-xs-12 span.lbsao{
+        float: left; vertical-align: middle; line-height: 35px;
+
+    }
+        .frm-group .col-xs-12 input {
+            border: solid 1px #0094ff; font-size: 12pt; border-radius: 10px;
+            float: left; margin-left: 8px; height: 35px; padding-left: 8px;
+            width: 60%;
+        }
+        .frm-group .col-xs-12 select {
+            border: solid 1px #0094ff;
+            font-size: 12pt;
+            border-radius: 10px;
+            float: left;
+            margin-left: 8px;
+            height: 35px;
+            padding-left: 8px;
+        }
+    .frm-sing {
+        padding-top: 10px;
+        padding-bottom: 8px;       
+        display: inline-block;
+    }
+        .frm-sing input {
+            border: solid 1px #0094ff;
+            font-size: 12pt;
+            border-radius: 10px;
+            float: left;
+            margin-left: 8px;
+            height: 35px;
+            padding-left: 8px;
+            width: 40%;
+        }
+        .frm-sing input.add{
+            width: 70%;
+        }
+        .frm-sing span.lbsao {
+            float: left;
+            vertical-align: middle;
+            line-height: 35px;
+        }
+    .tickednote{
+        color: #ff0000; padding-top: 15px; padding-bottom: 15px;
+        display: inline-block; width: 100%;
+    }
+    .btnxn {
+        padding: 8px 24px 8px 24px; border-radius: 15px;
+        background-color: #0095da;
+        border: none;
+        font-size: 15pt;
+        font-weight: bold;
+        color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+        .btnxn:hover {
+            background-color: #03548f;
+        }
+        input.error{
+            border: solid 1px #ff0000 !Important;
+            background-color: #fcf6d1;
+        }
+@media(max-width:480px) {
+      .tikedhead img.img-responsive {
+        float: none;
+        width: 50%; margin-left: auto; margin-right: auto;
+    }
+      .mxn {
+        display: inline-block;
+        color: #0095da;
+        border: solid 2px #0095da;    
+        padding: 5px 20px 5px 20px;
+        font-size: 13pt!Important;
+        float: none;
+        margin-left: 2%;
+        margin-top: 15px;
+        width: 90%;
+    }
+      .frm-group .col-xs-12 span{
+          line-height: 28px !Important;
+      }
+      .frm-group .col-xs-12 input{
+          height: 28px !Important;
+      }
+      .frm-group .col-xs-12 select{
+             height: 28px !Important;
+      }
+      .frm-sing input{
+            height: 28px !Important;
+      }
+      .imghead img.img-responsive{
+          width: 100%; 
+      }
+      .frm-group .col-xs-12{
+          padding-top: 3px !Important; padding-bottom: 3px !Important;
+          display: inline-block;
+      }
+      .frm-sing input{
+          width: 50%;
+      }
+      .frm-sing span {line-height: 25px;}
+      .frm-sing input.add{
+          width: 75%;
+      }
+}

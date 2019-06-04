@@ -1,0 +1,359 @@
+﻿/*css order*/
+.b_order {padding-left:0px;padding-right:0px;}
+#tieptheo, #bt_thanhtoan {
+    height: 45px; font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15pt; text-transform: uppercase;
+    float: right; font-weight: bold;    
+    background-color: #0095da; color: #fff; border: none;
+    padding-left: 25px; padding-right: 25px;
+}
+#tieptheo:hover, #bt_thanhtoan:hover{
+    background-color: #0176ac;
+}
+.div_order {
+    background: #f2f2f2;
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 10px; padding-right: 10px;
+}
+.div_next{
+    background: #f2f2f2;
+    width: 100%; margin-top: 10px;
+    height: auto; display: inline-block;
+}
+.tit_order {
+    display: inline-block;
+    font-size: 15pt;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #c50000;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+.lbpriceorder{
+    font-size: 13pt; font-weight: bold;
+     color: red;
+}
+table#tbl_tourdetail tr td {
+    font-size: 12px;
+    text-align: left!Important;
+}
+
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+    margin-top: 0%;
+}
+
+.stepwizard-row {
+    display: table-row;
+}
+
+    .stepwizard-row:before {
+        top: 14px;
+        bottom: 0;
+        position: absolute;
+        content: " ";
+        width: 100%;
+        height: 1px;
+        background-color: #ccc;
+        z-index: 0;
+    }
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+.tit_tt_khachhang_coban {
+    font-size: 14px;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 4px;
+    margin-top: 5px;
+    border-bottom: 1px solid firebrick;
+    color: firebrick;
+    font-weight: bold;
+}
+table.table thead tr th {
+    text-align: center;
+}
+.nd_giatourcoban {
+    width: 100%;
+    float: left;
+    background: #f2f2f2;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.nd_giatourcoban .col-lg-1{
+    padding-left: 0px;
+}
+ul.ulzalo li label {
+    text-align: left;
+    float: left;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+ul.ulzalo li {
+    list-style: none;
+}
+ul.vp_cn_order {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+    ul.vp_cn_order li {
+        font-weight: bold;
+        font-size: 12px;
+    }
+        ul.vp_cn_order li ul li {
+            font-weight: normal;
+        }
+.col-lg-fix-10{
+    width:10%;
+}
+.nd_giatourcoban .form-control {
+    font-size: 12px;
+}
+.ordermessage{
+    width: 100%;
+    border: dotted 1px #c0c0c0;
+    padding: 15px; display: inline-block;
+    text-align: center;
+}
+.thanhcong{
+    font-size: 15pt;
+}
+.thanhcong span{
+    color: #0095da;
+}
+.otit{
+    font-size: 15pt;
+     font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold; color: #114672;
+}
+.thatbai{
+    color: #333;
+}
+.oderr{
+    color: red;
+}
+/* end order*/
+.timgorder{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.orderright{
+    padding-right: 0px;
+}
+.timgorder img{
+    border: solid 1px #c0c0c0; padding: 5px;
+}
+.tit_name{
+    display: inline-block; width: 100%;
+    font-size: 15pt;
+    font-family: 'Open Sans Condensed',sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #114672;
+    text-align: left;
+}
+.tit_order {
+    display: inline-block;
+    font-size: 15pt;
+    font-family: 'Open Sans Condensed',sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #c50000;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+label.error {
+    color: red;
+    font-weight: normal;
+    position: absolute;
+    top: 32px;
+    right: 20px;
+}
+.tit_tb_kq h2 {
+    color: #114672;
+    text-align: center;
+    font-size: 16px;
+}
+.clickviewdetailtour {display:none;}
+.show_view_thongtin_tour {
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    float: left;
+    display:none;
+}
+.tbody_s {display:none;}
+.clickviewdetailtour {
+    background: #0095da;
+    width: 80%;
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    display: none;
+    margin-left: 10%;
+    cursor:pointer;
+}
+.order_tbl_price {
+    text-align: center;width:100%;float:left;
+}
+.checkbox.dydieukhoan label {
+    color: red;
+    font-weight: bold;
+}
+input#dongy_dieukhoan {
+    height: 25px;
+    width: 25px;
+    margin-left: -10px;
+    margin-right: 5px;
+    margin-top: -5px;
+}
+ul.pt-thanhtoan {padding:0px;}
+ul.pt-thanhtoan li {
+    list-style: none;
+    width: 33%;
+    float: left;
+}
+ul.ulzalo li {
+    width: 100%;
+}
+ul.ulzalo li:first-child {
+    width: 50%;
+}
+ul.ulzalo {
+    width: 100%;
+    float: left;
+    padding: 0px;
+}
+ul.tttienmat li {
+    list-style: none;
+}
+ul.tttienmat {
+    padding: 0px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+.dieukhoangiaodich_order {
+    height: 250px;
+    overflow: auto;
+    padding:15px;
+}
+.dieukhoangiaodich_order li {
+    list-style: none;
+}
+.dieukhoangiaodich_order ul li {
+    font-weight: bold;
+}
+.dieukhoangiaodich_order ul li ul li {
+    font-weight: normal;
+}
+@media (min-width: 992px) {
+}
+
+@media (min-width: 768px) {
+}
+@media (max-width: 767px)
+{
+    .tbody_full {
+        display: none
+    }
+
+    .tbody_s {
+        display: block
+    }
+    tbody.tbody_s td {
+        color: red;       
+        text-align: center;        
+    }
+
+    table#tbl_tourdetail {
+        border: none;
+    }
+    tbody.tbody_s tr {
+        width: 100%;
+        
+    }
+    .order_tbl_price {
+        display: none;
+    }
+    .clickviewdetailtour{display:block;}
+    .order_tbl_price.activeview, .show_view_thongtin_tour.activeview {
+        display: block;
+    }
+}
+@media (max-width: 480px) {
+    .right-col {
+        padding-left: 0px;
+    }
+
+    .left-col {
+        padding-right: 0px
+    }
+    
+    .tbody_full{display:none}
+    .tbody_s {
+        display: block
+    }
+    tbody.tbody_s td {
+        color: red;    
+    }
+    table#tbl_tourdetail {
+        border: none;
+    }
+    .order_tbl_price {
+        display: none;
+    }
+        .order_tbl_price.activeview, .show_view_thongtin_tour.activeview {
+            display: block;
+        }
+    tbody.tbody_s tr {
+        width: 100%;
+    }
+   
+    .clickviewdetailtour {
+        display: block;
+    }
+    ul.pt-thanhtoan li {
+        width: 100%; 
+    }
+    ul.ulzalo {
+        border-bottom: 1px solid #ccc;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+        ul.ulzalo li:first-child {
+            width: 30%;
+        }
+        ul.ulzalo li.checkbox{
+            padding-top:0px;
+        }
+    ul.tttienmat li img:first-child {
+        width:60%;
+    }
+}

@@ -1,0 +1,101 @@
+RewriteEngine on 
+
+RewriteBase /fidi/
+
+# mod / controller / action
+RewriteRule ^([0-9a-zA-Z\_]+)/([0-9a-zA-Z\_]+)/([0-9a-zA-Z\_]+)$ index.php?mod=$1&controller=$2&action=$3 [L,QSA]
+# mod / controller / action
+RewriteRule ^([0-9a-zA-Z\_]+)/([0-9a-zA-Z\_]+)/([0-9a-zA-Z\_]+)\.htm$ index.php?mod=$1&controller=$2&action=$3 [L,QSA]
+# home - index
+RewriteRule ^home\.htm&p([0-9]+)&t([0-9]+)$ index.php?mod=home&controller=home&action=index&page=$1&total=$2
+
+# Posts
+RewriteRule ^([0-9a-zA-Z\_\-]+)-n([0-9\_]+)\.htm$ index.php?mod=posts&controller=posts&action=detail&id=$2&alias=$1 [L,QSA]
+RewriteRule ^dang-nhap\.htm$ index.php?mod=user&controller=user&action=index [L,QSA]
+RewriteRule ^dang-xuat\.htm$ index.php?mod=user&controller=user&action=dangxuat [L,QSA]
+
+RewriteRule ^tim-kiem\.htm$ index.php?mod=home&controller=home&action=search [L,QSA]
+RewriteRule ^tim-kiem\.htm&search=([0-9a-zA-Z\_\-]+)-s([0-9\_]+)&p=([0-9]+)&t=([0-9]+)$ index.php?mod=home&controller=home&action=search&search=$1&page==$2&total=$3 [L,QSA]
+# Category
+RewriteRule ^([0-9a-zA-Z\_\-]+)-c([0-9\_]+)\.htm$ index.php?mod=posts&controller=posts&action=categories&id=$2&alias=$1 [L,QSA]
+RewriteRule ^catalog/([0-9a-zA-Z\_\-]+)-c([0-9\_]+)\.htm$ index.php?mod=product&controller=product&action=index&id=$2&alias=$1 [L,QSA]
+
+RewriteRule ^catalog\.htm&i([0-9]+)$ index.php?mod=product&controller=product&action=index [L,QSA]
+RewriteRule ^catalog\.htm&i([0-9]+)&p([0-9]+)$ index.php?mod=product&controller=product&action=index&id=$1&page=$2 [L,QSA]
+RewriteRule ^catalog\.htm&i([0-9]+)&p([0-9]+)&t([0-9]+)$ index.php?mod=product&controller=product&action=index&id=$1&page=$2&total=$3 [L,QSA]
+RewriteRule ^([0-9a-zA-Z\_\-]+)-p([0-9\_]+)\.htm$ index.php?mod=product&controller=product&action=index&id=$2&alias=$1 [L,QSA]
+
+RewriteRule ^news\.htm&i([0-9]+)$ index.php?mod=posts&controller=posts&action=index [L,QSA]
+RewriteRule ^news\.htm&i([0-9]+)&p([0-9]+)$ index.php?mod=posts&controller=posts&action=index&id=$1&page=$2 [L,QSA]
+RewriteRule ^news\.htm&i([0-9]+)&p([0-9]+)&t([0-9]+)$ index.php?mod=posts&controller=posts&action=index&id=$1&page=$2&total=$3 [L,QSA]
+
+# Category product
+RewriteRule ^category/([0-9a-zA-Z\_\-]+)-s([0-9\_]+)\.htm$ index.php?mod=product&controller=product&action=category&id=$2&alias=$1 [L,QSA]
+
+RewriteRule ^category\.htm&i([0-9]+)$ index.php?mod=product&controller=product&action=category [L,QSA]
+RewriteRule ^category\.htm&i([0-9]+)&p([0-9]+)$ index.php?mod=product&controller=product&action=category&id=$1&page=$2 [L,QSA]
+RewriteRule ^category\.htm&i([0-9]+)&p([0-9]+)&t([0-9]+)$ index.php?mod=product&controller=product&action=category&id=$1&page=$2&total=$3 [L,QSA]
+RewriteRule ^([0-9a-zA-Z\_\-]+)-x([0-9\_]+)\.htm$ index.php?mod=product&controller=product&action=category&id=$2&alias=$1 [L,QSA]
+
+# Categories
+RewriteRule ^([0-9a-zA-Z\_\-]+)-a([0-9\_]+)\.htm$ index.php?mod=posts&controller=posts&action=categories&id=$2&alias=$1 [L,QSA]
+RewriteRule ^([0-9a-zA-Z\_\-]+)&i([0-9]+)&p([0-9]+)&t([0-9]+)$ index.php?mod=posts&controller=posts&action=categories&alias=$1&id=$2&page=$3&total=$4 [L,QSA]
+
+RewriteRule ^categories\.htm&i([0-9]+)$ index.php?mod=posts&controller=posts&action=categories [L,QSA]
+RewriteRule ^categories\.htm&i([0-9]+)&p([0-9]+)$ index.php?mod=posts&controller=posts&action=categories&id=$1&page=$2 [L,QSA]
+#RewriteRule ^categories\.htm&i([0-9]+)&p([0-9]+)&t([0-9]+)$ index.php?mod=posts&controller=posts&action=categories&id=$1&page=$2&total=$3 [L,QSA]
+
+
+# Product
+RewriteRule ^([0-9a-zA-Z\_\-]+)-([0-9\_]+)\.htm$ index.php?mod=product&controller=product&action=detail&id=$2&alias=$1 [L,QSA]
+#dich vu
+RewriteRule ^dich-vu\.htm$ index.php?mod=product&controller=dichvu&action=index [L,QSA]
+
+#gioi thieu
+#RewriteRule ^gioi-thieu\.htm$ index.php?mod=home&controller=home&action=info [L,QSA]
+
+#album ảnh
+RewriteRule ^album-anh\.htm$ index.php?mod=posts&controller=posts&action=albumAnh [L,QSA]
+RewriteRule ^album-anh\.htm&i([0-9]+)&p([0-9]+)&t([0-9]+)$ index.php?mod=posts&controller=posts&action=albumAnh&id=$1&page=$2&total=$3 [L,QSA]
+RewriteRule ^([0-9a-zA-Z\_\-]+)-i([0-9\_]+)\.htm$ index.php?mod=posts&controller=posts&action=detail_image&id=$2&alias=$1 [L,QSA]
+#cart
+RewriteRule ^cart$ index.php?mod=product&controller=product&action=cart [L,QSA]
+
+#checkout
+RewriteRule ^checkout$ index.php?mod=product&controller=product&action=checkout [L,QSA]
+
+#done
+RewriteRule ^done$ index.php?mod=product&controller=product&action=done [L,QSA]
+RewriteRule ^succses\.htm$ index.php?mod=product&controller=product&action=succsessorder [L,QSA]
+RewriteRule ^order\.htm$ index.php?mod=product&controller=product&action=confimTour [L,QSA]
+# Verify
+RewriteRule ^verify\.htm&e(.+)&v([0-9]+)$ index.php?mod=user&controller=user&action=verify&email=$1&code=$2 [L,QSA]
+
+
+
+# Default pages 
+
+RewriteRule ^pages/pages/detail/([0-9]+)$ index.php?mod=pages&controller=pages&action=detail&id=$1 [L,QSA]
+
+
+# Custom pages 
+
+RewriteRule ^lien-he\.htm$ index.php?mod=pages&controller=pages&action=index&id=9 [L,QSA]
+RewriteRule ^tieng-anh\.htm$ index.php?mod=pages&controller=pages&action=detail&id=10 [L,QSA]
+RewriteRule ^gioi-thieu\.htm$ index.php?mod=pages&controller=pages&action=detail&id=11 [L,QSA]
+RewriteRule ^hayhaylam\.htm$ index.php?mod=pages&controller=pages&action=detail&id=12 [L,QSA]
+RewriteRule ^contact\.htm$ index.php?mod=pages&controller=pages&action=detail&id=12 [L,QSA]
+RewriteRule ^tag\.htm$ index.php?mod=posts&controller=posts&action=tags [L,QSA]
+RewriteRule ^tag\.htm&tag=([0-9a-zA-Z\_\-]+)-s([0-9\_]+)&p=([0-9]+)&t=([0-9]+)$ index.php?mod=posts&controller=posts&action=tags&tags=$1&page==$2&total=$3 [L,QSA]
+
+RewriteRule ^tags\.htm$ index.php?mod=product&controller=product&action=tags [L,QSA]
+RewriteRule ^tags\.htm&tag=([0-9a-zA-Z\_\-]+)-s([0-9\_]+)&p=([0-9]+)&t=([0-9]+)$ index.php?mod=product&controller=product&action=tags&tags=$1&page==$2&total=$3 [L,QSA]
+
+RewriteRule ^du-an\.htm$ index.php?mod=partner&controller=partner&action=index [L,QSA]
+RewriteRule ^du-an\.htm&p=([0-9]+)&t=([0-9]+)$ index.php?mod=partner&controller=partner&action=index&page=$1&total=$2 [L,QSA]
+RewriteRule ^([0-9a-zA-Z\_\-]+)-k([0-9\_]+)\.htm$ index.php?mod=partner&controller=partner&action=detail&id=$2&alias=$1 [L,QSA]
+RewriteRule ^([0-9a-zA-Z\_\-]+)-f([0-9\_]+)\.htm$ index.php?mod=product&controller=product&action=detail_view&id=$2&alias=$1 [L,QSA]
+RewriteRule ^([0-9a-zA-Z\_\-]+)-f([0-9\_]+)&p([0-9]+)&t([0-9]+)$ index.php?mod=product&controller=product&action=detail_view&page=$3&total=$4&alias=$1&id=$2 [L,QSA]
+RewriteRule ^tu-van-tour\.htm$ index.php?mod=pages&controller=pages&action=ContactForm [L,QSA]
+RewriteRule ^book-tour\.htm$ index.php?mod=product&controller=product&action=checktour [L,QSA]
+

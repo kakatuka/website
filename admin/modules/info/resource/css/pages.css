@@ -1,0 +1,26 @@
+.profile-userpic .modal-dialog {
+    width: 670px;
+}
+.profile-userpic .modal-body {
+    height: 450px;
+    overflow-y: scroll;
+}
+.avatar_img:hover{
+	cursor: pointer;
+}
+
+.bootstrap-datetimepicker-widget {
+    top: 601px;
+    left: 428px;
+   }
+
+
+.warning_mess{
+	color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+        border-radius: 3px;
+        padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #FF9800;
+}

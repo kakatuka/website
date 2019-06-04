@@ -1,0 +1,11 @@
+0 = news
+1 = contact
+2 = login
+3 = users
+4 = settings
+5 = home
+6 = news
+7 = options
+8 = pages
+9 = posts
+10 = media

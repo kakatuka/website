@@ -1,0 +1,41 @@
+
+RewriteEngine on 
+Options +FollowSymlinks 
+RewriteBase /fidi/cloud/
+
+ErrorDocument 404 /404.htm
+ErrorDocument 401 /404.htm
+ErrorDocument 403 /404.htm
+ErrorDocument 500 /404.htm
+
+#mod / controller / action
+RewriteRule ^([0-9a-zA-Z\_]+)/([0-9a-zA-Z\_]+)/([0-9a-zA-Z\_]+)$ index.php?mod=$1&controller=$2&action=$3 [L,QSA]
+
+#mod / controller / action / id
+RewriteRule ^([0-9a-zA-Z\_]+)/([0-9a-zA-Z\_]+)/([0-9a-zA-Z\_]+)/([0-9]+)$ index.php?mod=$1&controller=$2&action=$3&id=$4 [L,QSA]
+
+
+#mod / controller / action / id ?s= search
+RewriteRule ^([0-9a-zA-Z\_]+)/([0-9a-zA-Z\_]+)/([0-9a-zA-Z\_]+)&s=([^\s&]+)$ index.php?mod=$1&controller=$2&action=$3&s=$4 [NC]
+
+
+#mod / login / login / index
+RewriteRule ^login$ login/login/index [L,QSA]
+
+
+#ERROR 404
+RewriteRule ^404.htm$ home/home/notfound [L,QSA]
+
+
+#mod / controller / action / id / pagination
+RewriteRule ^([0-9a-zA-Z\_]+)/([0-9a-zA-Z\_]+)/([0-9a-zA-Z\_]+)&page=([0-9]+)&total=([0-9]+)$ index.php?mod=$1&controller=$2&action=$3&page=$4&total=$5 [L,QSA]
+
+#mod / controller / action / position &pos=$position
+RewriteRule ^([0-9a-zA-Z\_]+)/([0-9a-zA-Z\_]+)/([0-9a-zA-Z\_]+)&pos=([0-9]+)$ index.php?mod=$1&controller=$2&action=$3&pos=$4 [L,QSA]
+
+#mod / controller / action / id / position &pos=$position
+RewriteRule ^([0-9a-zA-Z\_]+)/([0-9a-zA-Z\_]+)/([0-9a-zA-Z\_]+)/([0-9]+)&pos=([0-9]+)$ index.php?mod=$1&controller=$2&action=$3&id=$4&pos=$5 [L,QSA]
+
+
+
+

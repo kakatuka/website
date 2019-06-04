@@ -1,0 +1,34 @@
+.popup-header {
+    background: #2d3a42;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px 2px 0 0;
+    -webkit-border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+}
+.popup-header a {
+    display: block;
+    color: #fff;
+    padding: 11px 12px 12px;
+    line-height: 1;
+}
+.popup-header>span {
+    display: inline-block;
+    margin: 11px 12px 12px;
+}
+.popup-header a {
+    display: block;
+    color: #fff;
+    padding: 11px 12px 12px;
+    line-height: 1;
+}
+
+
+.checker {
+    position: relative;
+    margin-right: 6px;
+    margin-top: -3px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+}

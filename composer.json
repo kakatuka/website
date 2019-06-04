@@ -1,0 +1,24 @@
+{
+	"description": "The Kamcms framework",
+	"name": "Kamcms/framework",
+	"type": "project",
+	"authors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+	"support": {
+		"wiki": "",
+		"source": ""
+	},
+	"require-dev": {
+		
+	},
+	"require": {
+		"php": ">=5.6",
+		"google/apiclient":"^2.0",
+		"voku/cart": "1.*"
+	}
+	
+}

@@ -1,0 +1,574 @@
+﻿
+.right-menu h3{
+     font-family: 'Open Sans Condensed', sans-serif;
+     display: inline;
+     color: #fff;
+     text-transform: uppercase;
+     font-size: 13pt;
+     font-weight: bold; 
+}
+.tour-title{    
+    padding-left: 0px;
+    font-size: 15pt;
+    padding-bottom: 8px;
+}
+.tour-title h1{
+    display: inline; font-size: 15pt;
+}
+.tour-left{
+    padding-left: 0px;
+    padding-right: 0px;    
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.tour-right{
+    padding-right: 0px;    
+    padding-left: 0px;
+    border-left: solid 1px #0184cc;
+}
+.tour-price{       
+    font-size: 15pt;
+}
+.pricetext{  
+    color: #f60000;
+    font-weight: bold;
+    font-size: 18pt;
+}
+.tour-code{    
+    color: #666;
+    font-size: 12pt;
+}
+.trip-info{
+    font-size: 10pt;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.trip-info table{
+    width: 100%;
+    margin-bottom: 0px;
+    font-size: 12pt;
+    color: #000;    
+}
+.trip-info table tr td{    
+    padding-top: 4px; padding-bottom: 4px;
+    padding-left: 0px; border: none;
+}
+.tour-support{
+    width: 100%;
+    padding-top: 10px;
+}
+.hotlinetext{
+    font-size: 12pt;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.tour-support a{
+    color: #f60000;
+    font-size: 13pt;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.tour-support a span{
+    color: #333;
+    font-weight: normal;
+    font-size: 11pt;
+}
+.book-tour{
+    text-align: center;
+    display: inline-block;    
+    margin-top: 15px; width: 100%;
+}
+.book-tour span{
+    display: block;
+    font-size: 11pt; font-weight: bold;
+}
+.book-tour a.btn{
+    font-size: 13pt; font-weight: bold;
+    text-transform: uppercase;
+    width: 135px; color: #fff;
+}
+.tourinfotab{
+    width: 100%;
+    padding-top: 15px;
+}
+.tourinfotab ul.nav-tabs {
+    list-style: none;
+    padding: 0px; margin: 0px;   
+    border: none; 
+}
+.tourinfotab ul.nav-tabs li{
+    width: 100%;
+}
+.tourinfotab li a{
+    display: block;
+    padding: 8px;
+    border: none;
+    background-color: #0184cc;
+    width: 100%;    
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12pt; font-weight: bold;
+    border-radius: 0px 0px 0px 0px;
+    margin-top: 8px;
+    
+}
+.tourinfotab li.active a{
+    display: block;
+    padding: 5px;
+    border: none;
+    background-color: #114672;
+    width: 100%;    
+    text-transform: uppercase;
+    color: #fff;  
+    
+    margin-top: 8px;
+}
+.tourinfotab .nav-tabs > li.active > a{
+    display: block;
+    padding: 5px;
+    border: none;
+    background-color: #114672;
+     color: #fff;   font-size: 12pt; font-weight: bold; padding: 8px;
+}
+.tourinfotab .nav-tabs > li > a:hover{
+    background-color: #114672;
+    color: #fff;
+}
+/*Tour Slider*/
+#jssor_tourimage{
+    position:relative;margin:0 auto;top:0px;left:0px;width:980px;height: 678px;overflow:hidden;visibility:hidden;    
+}
+.tourslider{
+   
+    
+}
+.tourslider > div .cap{
+   background-color: #114672;
+   opacity: 0.8;
+   color: #fff;
+   font-family: Tahoma;
+   font-size: 15pt;
+   padding: 5px;
+}
+.tourslider img.slideitem{
+      width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+    object-fit: cover;    
+}
+ /*jssor slider loading skin spin css*/
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;    
+}
+
+        @keyframes jssorl-009-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /*jssor slider arrow skin 106 css*/
+.jssora106 {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+
+            .jssora106 .c {
+                fill: #fff;
+                opacity: .5;
+            }
+
+            .jssora106 .a {
+                fill: none;
+                stroke: #fff;
+                stroke-width: 350;
+                stroke-miterlimit: 10;
+            }
+
+            .jssora106:hover .c {
+                opacity: .5;
+            }
+
+            .jssora106:hover .a {
+                opacity: .8;
+            }
+
+            .jssora106.jssora106dn .c {
+                opacity: .2;
+            }
+
+            .jssora106.jssora106dn .a {
+                opacity: 1;
+            }
+
+            .jssora106.jssora106ds {
+                opacity: .3;
+                pointer-events: none;
+            }
+
+        /*jssor slider thumbnail skin 101 css*/
+.jssort101 .p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    background: #000;
+}
+
+            .jssort101 .p .cv {
+                position: relative;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 1px solid #fff;
+                box-sizing: border-box;
+                z-index: 1;
+            }
+
+        .jssort101 .a {
+            fill: none;
+            stroke: #fff;
+            stroke-width: 400;
+            stroke-miterlimit: 10;
+            visibility: hidden;
+        }
+
+.jssort101 .p:hover .cv, .jssort101 .p.pdn .cv {
+    border: none;
+    border-color: transparent;
+}
+
+.jssort101 .p:hover {
+    padding: 2px;
+}
+
+            .jssort101 .p:hover .cv {
+                background-color: rgba(0,0,0,6);
+                opacity: .25;
+                cursor: pointer;
+            }
+
+            .jssort101 .p:hover.pdn {
+                padding: 0;
+            }
+
+                .jssort101 .p:hover.pdn .cv {
+                    border: 2px solid #fff;
+                    background: none;
+                    opacity: .25;
+                }
+
+.jssort101 .pav .cv {
+    border-color: #fff;
+    opacity: .35;
+}
+
+.jssort101 .pav .a, .jssort101 .p:hover .a {
+    visibility: visible;
+}
+
+.jssort101 .t {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    opacity: 0.7;   
+}
+.jssort101 .t:hover{
+    cursor: pointer;
+}
+
+.jssort101 .pav .t, .jssort101 .p:hover .t {
+    opacity: 1;
+     
+}
+/*Tour Content*/
+.tour-content{
+    display: inline-block;
+    margin-top: 15px;
+   
+}
+#maincontent
+{
+     padding-bottom: 25px;
+}
+.tour-briefIntro{
+    border: dotted 1px #c0c0c0;
+    padding: 8px;
+    font-size: 11pt;
+    width: 96%;
+    display: inline-block;
+    margin-left: 2%;
+    line-height: 22px;
+}
+.tour-detail{
+    margin-top: 15px;
+}
+.tab-content {
+   position: relative;
+}
+.tab-pane{
+    
+}
+.tab-pane .tab-cap{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.tab-pane .tab-cap span{
+    display: inline-block;
+    font-size: 17pt;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold; color: #333;
+    text-indent: 15px;
+}
+.tour-schedule{
+    padding-left: 15px;
+    position: relative;
+    font-size: 10.5pt;
+    padding-top: 15px;
+    line-height: 22px;
+}
+.notepoint{
+    width: 20px; height: 20px; border-radius: 100%;
+    display: block;
+    background-color: #0184cc;
+    position: absolute; left: -26px;
+}
+.tour-schedule .schedule-cap {
+    display: block;
+    color: #333;
+    padding-bottom: 15px;
+    position: relative;
+}
+.tour-schedule .schedule-cap h3{
+    display: inline;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.tour-schedule .schedule-cap span{
+    display: block;
+    font-size: 11pt;
+}
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+#sidebar {
+    float: left;
+    width: 100%;   
+    will-change: min-height;
+}
+
+#sidebar .sidebar__inner {
+    position: relative;
+    transform: translate(0, 0);
+    transform: translate3d(0, 0, 0);
+    will-change: position, transform;
+}
+.is-affixed .sidebar__inner{
+    background-color: #fff;    
+    z-index: 900;
+}
+#content-tour{
+    z-index: 901;
+    
+}
+.tour-view-print {
+    border-left: 1px solid #0184cc
+}
+.print-content-child h2 {
+    background: #ccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 5px solid #000;
+}
+.schedule-cap img {
+    max-width: 100%;
+    min-width: 100%;
+    padding-right: 15px;
+}
+.table-info{
+    display: inline-block;
+}
+.table-info .settbl {
+    width: 100% !Important;
+}
+.table-info .settbl td{
+    width: auto; padding:2px!Important;
+    font-size: 10pt; font-family: Tahoma;
+}
+.tour-schedule-child {
+    padding-left: 0px;
+    position: relative;
+    font-size: 10pt;
+    padding-top: 0px;
+}
+
+    .tour-schedule-child .schedule-cap {
+        display: block;
+        color: #333;
+        padding-bottom: 0px;
+        position: relative;
+    }
+
+    .tour-schedule-child h4 {
+        display: inline;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+
+    .tour-schedule-child span.notepoint {
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        display: block;
+        background-color: #ccc;
+        position: absolute;
+        left: -23px;
+    }
+
+.pricetext {
+    padding-left: 30px;
+}
+
+.pricetext_dis {
+    text-decoration: line-through;
+}
+.bt-printer-in-printer-page svg {
+    fill: #000;
+}
+.bt-printer-in-printer-page {
+    background: #ccc;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.tabscontenttour-mb ul {
+    padding: 0px;
+    background: #114672;
+}
+    .tabscontenttour-mb ul li {
+        display: inline-block;
+        width: auto;
+        border-left: 1px solid #fff;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .tabscontenttour-mb ul li:first-child{
+        border-left:none;
+    }
+        .tabscontenttour-mb ul li a {
+            color: #fff;
+            font-family: 'Open Sans Condensed', sans-serif;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 11pt !Important;
+        }
+.schedule-cap img {
+    max-width: 100%;
+    min-width: 100%;
+    padding-right: 15px;
+}
+.tour-schedule-child {
+    padding-left: 0px;
+    position: relative;
+    font-size: 10pt;
+    padding-top: 0px;
+}
+
+    .tour-schedule-child .schedule-cap {
+        display: block;
+        color: #333;
+        padding-bottom: 0px;
+        position: relative;
+    }
+
+    .tour-schedule-child h4 {
+        display: inline;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+
+    .tour-schedule-child span.notepoint {
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        display: block;
+        background-color: #ccc;
+        position: absolute;
+        left: -23px;
+    }
+
+.pricetext {
+    padding-left: 30px;
+}
+
+.pricetext_dis {
+    text-decoration: line-through;
+}
+.pricetable{
+    width: 100%;
+}
+.pricetable thead{
+    background-color: #0184cc;
+    color: #fff;
+    text-transform: uppercase;
+}
+.phututb{
+    background-color: #fff2b6;
+}
+.price-info{
+    display: inline-block;
+}
+.tabslienquan{
+    
+}
+.tabslienquan .nav-tabs{
+
+}
+.tabslienquan .nav-tabs li a{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 13pt;
+}
+.tabslienquan .nav-tabs li.active a{
+    border: none; color: #114672!Important; border-right: solid 1px #ddd;
+    border-radius: 0px 0px 0px 0px; font-weight: bold;
+}
+.tabslienquan .nav-tabs li a {
+      border: none; color: #333!Important; border-right: solid 1px #ddd;
+    border-radius: 0px 0px 0px 0px;
+}
+   #exTab2 .tour-item-fix {
+        width: 48%; margin-right: 1%;
+        margin-bottom: 10px; max-height: 135px; height: 130px;
+    }
+        #exTab2 .tour-item-fix .tour-imgdiv {
+            max-height: 130px;
+            height: 135px;
+        } 
+    #exTab2 .tour-item-fix .tour-imgdiv a img {
+        height: 130px;
+    }
+    #exTab2 .nav-tabs > li {
+        float: left;
+    }

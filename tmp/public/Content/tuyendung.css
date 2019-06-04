@@ -1,0 +1,248 @@
+﻿.hban-td {
+    text-align: center;
+}
+    .hban-td h1 {
+        color: #0095da;
+        font-size:38px;font-weight:bold;
+    }
+ul.mn_tuyendung_top li {
+    display: initial;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: 1px solid #0095da;
+}
+ul.mn_tuyendung_top li:first-child {
+    border-left: none;
+}
+ul.mn_tuyendung_top {
+    margin-top: 30px;
+}
+.timkiem-banner {
+   padding:15px;
+    margin-top: 2%;
+    border-radius: 10px;
+    background: #0095da;
+   
+}
+.rowfix {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+div.form-search {
+    position: relative;
+}
+div.form-search:before {
+    display: block;
+    width: 14px;
+    height: 14px;
+    content: "\e003";
+    font-family: 'Glyphicons Halflings';
+    background-position: -48px 0;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    opacity: .5;
+    z-index: 1000;
+}
+input.search-query {
+    padding-left: 26px;
+}
+.txt-des-td {
+    color: #0099cc;
+   
+   
+    float: left;
+    padding: 5%;
+    margin-top: 2%;
+}
+.bg-txt-des-td {
+    font-size:18px;
+}
+.btn_td-1 {
+    display: inline-block;
+    padding: 3px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    background: #0095da;
+    border: #0095da;
+}
+.bg_ft_menu {
+    background: url(images/fo_td_ds_01.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 280px;
+}
+
+.bg_ft_menu {
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    position:relative;
+}
+.bg1-td-ft, .bg2-td-ft, .bg3-td-ft {
+    margin-top: 200px;
+   
+}
+.bg1-td-ft {
+    padding-left: 12%;
+    padding-right: 8%;
+}
+.bg2-td-ft {
+    padding-left: 6%;
+    padding-right: 14%;
+}
+.bg3-td-ft {
+    padding-left: 5%;
+    padding-right: 15%;
+}
+.bg1-td-ft a, .bg2-td-ft a, .bg3-td-ft a{
+    color:#fff;font-size:16px;
+}
+.line_foot {
+    border-bottom: 1px solid #000;
+    width: 100%;
+    float: left;
+    margin-top: 5px;position:relative;
+}
+.circle_footer {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    border: 2px solid #e5e5e5;
+    z-index: 7;
+    position: absolute;
+    background: #fff;
+    
+}
+.circle0 {
+    left: 0px;
+    bottom: -15px;
+}
+.circle1 {
+    left: 23%;
+    bottom: -15px;
+    background: #1982bc;
+}
+.circle2 {
+    left: 45%;
+    bottom: -15px;
+    background: #e34c43;
+}
+.circle3 {
+    left: 71%;
+    bottom: -15px;
+    background: #73b0cf;
+}
+.circle4 {
+    right: 0px;
+    bottom: -15px;
+}
+.xemthem_td {
+    float: right;
+}
+.list_td {
+    margin-top: 15px;
+}
+    .list_td .col-md-5 {
+        font-weight: bold;
+    }
+.nd-content-td {
+    webkit-box-shadow: 5px 0px 30px #cccccc;
+    box-shadow: 5px 0px 30px #cccccc;
+    margin-top: 1%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.ct-ct-td {
+    padding: 15px;
+}
+.ct-nd-ct {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+.tit-ct-td h3 {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+.thongtin_ungtuyen {
+    width: 100%;
+    margin-top: 2%;
+    float: left;
+}
+p.bg-primary {
+    color: #000;
+    background-color: #d9edf7;
+    padding: 15px;
+}
+.rowfixtd {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 5px;
+    width: 100%;
+    float: left;
+}
+.blog_thongtin_ungtuyen {
+    width: 100%;
+    float: left;
+}
+.them_truong, .them_cty {
+    cursor: pointer;
+    float: right;
+    text-align: right;
+}
+.g-recaptcha {
+    transform: scale(0.77);
+    /* transform-origin: 0 0; */
+    margin: 0 auto;
+    display: table;
+}
+.hinhdaidien {
+    width: 35%;
+    margin: 0 auto;
+}
+label.error {
+    color: red;
+    font-weight: normal;
+}
+button#btn_search_td {
+    background: red;
+}
+@media (min-width: 992px) {
+
+}
+
+
+
+@media (max-width: 767px) {
+    .bg1-td-ft a, .bg2-td-ft a, .bg3-td-ft a {
+        color: #fff;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bg1-td-ft a, .bg2-td-ft a, .bg3-td-ft a {
+        color: #fff;
+        font-size: 14px;
+    }
+}
